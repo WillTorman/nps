@@ -1,6 +1,6 @@
 import { parkInfoTemplate, footerTemplate } from "./templates.mjs";
 
-function setHeaderFooter(data) {
+function setHeaderInfo(data) {
     const disclaimer = document.querySelector(".disclaimer > a");
 
     disclaimer.href = data.url;
